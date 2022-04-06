@@ -1,0 +1,133 @@
+/*style for selection title screen*/
+.selection{
+	/*border style*/
+	border-style: 2px dashed;
+	border-radius: 20px;
+	/*text style*/
+	text-align: center;
+  font-family: 'Courier New', monospace;
+  /*box style*/
+  height: auto;
+  width: 800px;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+/*style for display*/
+.displayingForm{
+	/*border style*/
+	border-style: 2px dashed;
+	border-radius: 20px;
+	/*text style*/
+	text-align: center;
+  font-family: 'Courier New', monospace;
+  /*box style*/
+  height: auto;
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  top: 10em;
+  padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+/*style for backgorund*/
+body{
+	background-image: url("bookBack.jpg");
+	background-position: top;
+	height: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*paragraph styling*/
+p {
+  font-size: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/*hovering link*/
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*no action link*/
+a{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*style for input text*/
+input[type=text]{
+	width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white; 
+  padding: 12px 20px 12px;
+  text-align: center;
+}
+/*style for selection box*/
+select{
+	width: 240px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white; 
+  padding: 14px 12px;
+  text-align: center;
+}
+/*style for date*/
+input[type=date]{
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white; 
+  padding: 12px 20px 12px;
+  text-align: center;
+}
+/*style for time*/
+input[type=time]{
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white; 
+  padding: 12px 20px 12px;
+  text-align: center;
+}
+/*style for buttons*/
+button{
+  background-color: #d9d9d9;
+  border: none;
+  padding: 15px 32px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+/*style for hovering over buttons*/
+button:hover{
+  border: 1px solid;
+  cursor: pointer;
+  background-color: white;
+}
